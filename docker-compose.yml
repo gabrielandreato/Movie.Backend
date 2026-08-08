@@ -22,6 +22,7 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ConnectionStrings__DefaultConnection: "Host=postgres;Port=5432;Database=ClearMechanicsDb;Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}"
+      Cors__AllowedOrigins__0: "http://localhost:5174"
     ports:
       - "8080:8080"
     depends_on:
