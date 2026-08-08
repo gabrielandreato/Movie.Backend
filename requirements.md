@@ -1,26 +1,28 @@
-Technical Assignment – Senior Full Stack Developer
+# Technical Assignment – Senior Full Stack Developer
 
 Please develop a web application that allows users to search for and display information about movies. The application should allow users to search for movies using one or more criteria and display detailed information about the selected movie.
 
-Functional Requirements
+## Functional Requirements
 
-Each movie must be associated with one or more actors.
-Users must be able to search for movies by title, genre, or actor name.
-Search results must be displayed on the same page, below the search form.
-Technical Requirements
+- Each movie must be associated with one or more actors.
+- Users must be able to search for movies by title, genre, or actor name.
+- Search results must be displayed on the same page, below the search form.
 
-The backend must be implemented using a recent version of .NET.
-The database must use Microsoft SQL Server, Microsoft SQL Server Express, or PostgreSQL.
-Entity Framework Core must be used as the ORM.
-The use of Docker is recommended.
-The frontend must be developed using React and TypeScript, using functional components rather than class components.
-The use of modern CSS solutions or frameworks, such as Styled Components, will be considered a plus.
-The use of component libraries such as MUI (Material UI) is recommended.
-The application should use a global state management solution; Redux is recommended.
-The inclusion of automated tests will be considered a plus.
-Documentation must be provided describing the application's functionality and the implementation approach.
-All code comments and documentation must be written in English.
-Submission Instructions
+## Technical Requirements
+
+- The backend must be implemented using a recent version of .NET.
+- The database must use Microsoft SQL Server, Microsoft SQL Server Express, or PostgreSQL.
+- Entity Framework Core must be used as the ORM.
+- The use of Docker is recommended.
+- The frontend must be developed using React and TypeScript, using functional components rather than class components.
+- The use of modern CSS solutions or frameworks, such as Styled Components, will be considered a plus.
+- The use of component libraries such as MUI (Material UI) is recommended.
+- The application should use a global state management solution; Redux is recommended.
+- The inclusion of automated tests will be considered a plus.
+- Documentation must be provided describing the application's functionality and the implementation approach.
+- All code comments and documentation must be written in English.
+
+## Submission Instructions
 
 Please send your completed technical assignment to:
 
@@ -36,7 +38,7 @@ Technical Assignment for ClearMechanic: Brad Simmons - Senior Full Stack Develop
 
 Once we receive your submission, we will review it and determine whether to proceed to the next stage of the recruitment process.
 
-Time Expectations
+## Time Expectations
 
 To help you manage your time, we do not require the assignment to be 100% complete.
 
@@ -46,7 +48,7 @@ Therefore, you may use mockups, wireframes, comments, TODOs, or partially implem
 
 We estimate that a fully completed implementation would take approximately 12 hours. However, given that 100% completion is not required, we ask that you spend no more than 7 hours on this assignment.
 
-Important: AI Usage
+## Important: AI Usage
 
 This exercise must initially be completed without the use of Artificial Intelligence (AI) tools.
 
