@@ -16,7 +16,10 @@ public static class ServiceExtensions
         {
             options.AddPolicy(CorsPolicyName, policy =>
             {
-                policy.WithOrigins(allowedOrigins)
+                policy.SetIsOriginAllowed(origin =>
+                        allowedOrigins.Contains(origin)
+                        || (Uri.TryCreate(origin, UriKind.Absolute, out var originUri)
+                            && originUri.Host is "localhost" or "127.0.0.1"))
                     .AllowAnyHeader()
                     .AllowAnyMethod();
             });
