@@ -1,4 +1,4 @@
-# ClearMechanics Backend
+# Movies Backend
 
 Movie/Actor catalog API built with .NET 10, following Clean Architecture and DDD principles.
 
