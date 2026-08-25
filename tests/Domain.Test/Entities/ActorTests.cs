@@ -29,7 +29,7 @@ public class ActorTests
     }
 
     [Fact]
-    public void Movies_CanAddMovie()
+    public void Actor_CanAddMovie()
     {
         var actor = new Actor(Guid.NewGuid(), "Keanu Reeves");
         var movie = new Movie(Guid.NewGuid(), "The Matrix", MovieGenre.SciFi, new List<Actor> { actor });
@@ -41,7 +41,7 @@ public class ActorTests
     }
 
     [Fact]
-    public void Movies_CanRemoveMovie()
+    public void Actor_CanRemoveMovie()
     {
         var actor = new Actor(Guid.NewGuid(), "Keanu Reeves");
         var movie = new Movie(Guid.NewGuid(), "The Matrix", MovieGenre.SciFi, new List<Actor> { actor });
